@@ -15,9 +15,14 @@ const App = () => {
       <Container>
         <ProductImg src={imgProductDesktop} href="Foto do eau de parfum" />
         <PurchaseForm>
-          <FOTitle className="productName">
-            Gabrielle Essence Eau De Parfum
-          </FOTitle>
+          <div className='titleWrapper'>
+            <Paragraph className='productType'>
+              Perfume
+            </Paragraph>
+            <FOTitle className="productName">
+              Gabrielle Essence Eau De Parfum
+            </FOTitle>
+          </div>
           <Paragraph>
             A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
           </Paragraph>

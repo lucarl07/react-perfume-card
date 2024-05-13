@@ -7,6 +7,16 @@ div#root {
     background: var(--cream);
 }
 
+.titleWrapper {
+    display: inherit;
+    flex-direction: column;
+    gap: var(--p-size);
+}
+.titleWrapper .productType {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
 .productName {
     color: var(--very-dark-blue);
 }
