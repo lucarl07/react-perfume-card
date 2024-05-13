@@ -6,3 +6,19 @@ div#root {
     height: 100vh;
     background: var(--cream);
 }
+
+.productName {
+    color: var(--very-dark-blue);
+}
+
+.productPrice {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.productPrice .beforeDiscount {
+    text-decoration: line-through;
+}
+.productPrice .afterDiscount {
+    color: var(--dark-cyan);
+}

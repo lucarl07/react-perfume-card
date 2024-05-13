@@ -5,7 +5,7 @@ const Container = styled.section`
   flex-direction: row;
   margin: 0 auto;
   width: 580px;
-  height: 460px;
+  height: 420px;
   border-radius: 14px;
   background-color: var(--white);
 `;
