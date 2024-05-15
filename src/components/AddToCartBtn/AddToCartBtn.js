@@ -12,6 +12,12 @@ const AddToCartBtn = styled.button`
   background-color: var(--dark-cyan);
   font-weight: 700;
   font-size: var(--p-size);
+  transition: 50ms linear;
+
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 24%);
+  }
 `;
 
 export default AddToCartBtn;
