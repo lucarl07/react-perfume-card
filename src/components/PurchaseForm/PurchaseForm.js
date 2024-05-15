@@ -4,7 +4,7 @@ const PurchaseForm = styled.form`
   display: inherit;
   flex-direction: column;
   padding: 2rem;
-  gap: 24px;
+  gap: 1.5rem;
 `;
 
 export default PurchaseForm;

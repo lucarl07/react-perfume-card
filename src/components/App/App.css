@@ -10,11 +10,12 @@ div#root {
 .titleWrapper {
     display: inherit;
     flex-direction: column;
-    gap: var(--p-size);
+    gap: 1rem;
 }
 .titleWrapper .productType {
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
+    font-size: 12px;
+    letter-spacing: 4px;
 }
 
 .productName {
