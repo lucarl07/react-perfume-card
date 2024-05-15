@@ -3,11 +3,13 @@ import Container from '../Container/Container';
 import PurchaseForm from '../PurchaseForm/PurchaseForm';
 import ProductImg from '../ProductImg/ProductImg';
 import FOTitle from '../FOTitle/FOTitle';
+import Paragraph from '../Paragraph/Paragraph';
+import AddToCartBtn from '../AddToCartBtn/AddToCartBtn';
 
 // Images, stylesheets and other media:
 import imgProductDesktop from '../../assets/images/image-product-desktop.jpg';
+import iconCart from '../../assets/images/icon-cart.svg';
 import './App.css'
-import Paragraph from '../Paragraph/Paragraph';
 
 const App = () => {
   return (
@@ -34,6 +36,10 @@ const App = () => {
               $169.99
             </Paragraph>
           </div>
+          <AddToCartBtn>
+            <img src={iconCart} alt="Cart icon" />
+            <span>Add to Cart</span>
+          </AddToCartBtn>
         </PurchaseForm>
       </Container>
     </>

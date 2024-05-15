@@ -4,8 +4,8 @@ const Container = styled.section`
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  width: 580px;
-  height: 420px;
+  width: 590px;
+  height: 430px;
   border-radius: 14px;
   background-color: var(--white);
 `;
